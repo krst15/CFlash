@@ -61,8 +61,6 @@ class FlashDirectTest extends \PHPUnit_Framework_TestCase
         $res = $flash->alert();
         $exp = "Alert, something isn't right!";
         $this->assertEquals($res, $exp, "Can't set redirectTo.");
-
-
     }
 
     public function testWarning()
@@ -76,7 +74,6 @@ class FlashDirectTest extends \PHPUnit_Framework_TestCase
         $res = $flash->warning();
         $exp = "WARNING, something isn't right!";
         $this->assertEquals($res, $exp, "Can't set redirectTo.");
-
     }
 
     public function testSuccess()
